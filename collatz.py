@@ -1,6 +1,10 @@
 from biginteger import BigInteger
 
-bint1=BigInteger("10")
-bint2=BigInteger("10")
 
-print(bint1+bint2)
+print("Welcome!")
+print("Give a number to calculate steps.")
+
+print(".")
+
+number_string=input("Number: ")
+bint=BigInteger(number_string)
